@@ -9,7 +9,7 @@ spec:
     app: frontend
   ports:
     - name: http
-      port: 80
+      port: 9898
       targetPort: 9898
       protocol: TCP
     - port: 9999
