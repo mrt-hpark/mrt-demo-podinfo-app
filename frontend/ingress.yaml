@@ -16,6 +16,6 @@ spec:
             path: "/"
             backend:
               service:
-                name: podinfo
+                name: frontend
                 port:
                   number: 9898
