@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
-  namespace: test
+  namespace: tenant1
 spec:
   minReadySeconds: 3
   revisionHistoryLimit: 5
